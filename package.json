@@ -12,7 +12,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "cz",
-    "release": "semantic-release --no-ci"
+    "release": "semantic-release --no-ci",
+    "cypress:open": "cypress open"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +22,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "cypress": "^3.6.0"
   }
 }
