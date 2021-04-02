@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^17.4.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "cz"
+    "commit": "cz",
+    "release": "semantic-release --no-ci"
   },
   "keywords": [],
   "author": "",
